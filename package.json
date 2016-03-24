@@ -1,0 +1,56 @@
+{
+  "name": "wtr",
+  "version": "1.0.0",
+  "description": "A simple web application to manage your time in your company",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinvavelin/WTR.git"
+  },
+  "keywords": [
+    "wtr",
+    "time",
+    "project",
+    "company",
+    "angularjs",
+    "javaee",
+    "spring",
+    "jspm",
+    "karma",
+    "protractor",
+    "travis",
+    "management"
+  ],
+  "author": "Kevin Vavelin",
+  "bugs": {
+    "url": "https://github.com/kevinvavelin/WTR/issues"
+  },
+  "homepage": "https://github.com/kevinvavelin/WTR#readme",
+  "devdependencies": {
+    "jspm": "^0.16.31"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.5.2",
+      "angular-bootstrap": "github:angular-ui/bootstrap-bower@^1.2.5",
+      "angular-material": "github:angular/bower-material@^1.0.6",
+      "angular-mocks": "github:angular/bower-angular-mocks@^1.5.2",
+      "bootstrap": "github:twbs/bootstrap@^3.3.6",
+      "bower": "npm:bower@^1.7.7",
+      "clean-css": "npm:clean-css@^3.4.10",
+      "css": "github:systemjs/plugin-css@^0.1.20",
+      "fontawesome": "npm:fontawesome@^4.5.0",
+      "gulp": "npm:gulp@^3.9.1",
+      "gulp-babel": "npm:gulp-babel@^6.1.2",
+      "ionicons": "npm:ionicons@^3.0.0-alpha.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
